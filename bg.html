@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blush & Glow</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>Blush & Glow</h1>
+        <p>Tu belleza, nuestra pasión</p>
+    </header>
+
+    <nav class="navbar">
+        <a href="#tratamientos">Tratamientos</a>
+        <a href="#reservaciones">Reservar</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#medico">Nuestro Médico</a>
+        <a href="#descuentos">Descuentos de Navidad</a>
+    </nav>
+
+    <section id="tratamientos">
+        <h2>Catálogo de Tratamientos</h2>
+        <div class="catalogo">
+            <div class="tratamiento">
+                <h3>Facial Glow</h3>
+                <p>Rejuvenece tu piel con nuestro tratamiento exclusivo.</p>
+            </div>
+            <div class="tratamiento">
+                <h3>Masaje Relajante</h3>
+                <p>Desconéctate y disfruta de un momento para ti.</p>
+            </div>
+            <div class="tratamiento">
+                <h3>Sueros</h3>
+                <p>Potencia tu piel con nuestros sueros exclusivos para cada tipo de necesidad.</p>
+            </div>
+            <!-- Agrega más tratamientos aquí si es necesario -->
+        </div>
+    </section>
+
+    <section id="reservaciones">
+        <h2>Reservar tu Cita</h2>
+        <form id="form-reserva">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Correo:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="tratamiento">Tratamiento:</label>
+            <select id="tratamiento" name="tratamiento">
+                <option value="facial">Facial Glow</option>
+                <option value="masaje">Masaje Relajante</option>
+                <option value="sueros">Sueros</option>
+                <!-- Más opciones -->
+            </select>
+
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <button type="submit">Reservar</button>
+        </form>
+    </section>
+
+    <section id="medico">
+        <h2>Conoce a Nuestro Médico</h2>
+        <div class="medico-info">
+            <img src="doctor.jpg" alt="Nuestro Médico">
+            <p>La doctora María Silvia Orgaz Fernández.</p>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Teléfono: 62671351</p>
+        <p>Email: blushglow.em@gmail.com</p>
+        <p>Redes Sociales: 
+            <a href=https://www.instagram.com/blushadnglow/ target="_blank">Instagram</a>
+            <a href="#">Facebook</a>
+        </p>
+    </section>
+
+    <section id="descuentos">
+        <h2>Descuentos de Navidad</h2>
+        <p>¡Celebra con nosotros esta Navidad! Aquí puedes añadir los descuentos especiales que quieras ofrecer. (Ejemplo: 20% de descuento en todos los tratamientos hasta el 25 de diciembre).</p>
+        <!-- Completa los detalles de los descuentos navideños -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Blush & Glow. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
